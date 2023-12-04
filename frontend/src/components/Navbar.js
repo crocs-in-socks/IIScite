@@ -19,8 +19,7 @@ export default function Navbar() {
                         <div className="navbar-list-item navbar-left">
                             More +
                         </div>
-                    </div>
-                    
+                    </div> 
                 </div>
                 <div className="navbar-list-item navbar-title">
                     WORKSHOP ON MEDICAL IMAGE COMPUTING

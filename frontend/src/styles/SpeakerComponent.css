@@ -1,10 +1,28 @@
 .speakercomponent-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
 
     width: 100vw;
-    height: 90vh;
-    background-color: #eee;
+    background-color: #ABD2FA;
+
+    padding: 50px 0px;
+}
+
+.speakercomponent-row {
+    justify-content: center;
+    align-items: center;
+}
+
+.speakercomponent-title {
+    text-align: center;
+    font-size: 48px;
+    padding: 20px;
+}
+
+.speakercomponent-row {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
 }

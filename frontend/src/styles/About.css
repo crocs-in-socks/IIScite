@@ -6,15 +6,30 @@
 
     width: 100vw;
     height: 90vh;
-    background-color: #eee;
+    background-color: #093A3E;
+    color: aliceblue;
 }
 
 .about-image-container {
-    width: 30%;
+    width: 40%;
+    justify-content: center;
+}
+
+.about-image-container > img {
+    width: 370px;
 }
 
 .about-text-container {
     display: flex;
     flex-direction: column;
     width: 30%;
+}
+
+.about-text-title {
+    font-size: 40px;
+    padding: 10px;
+}
+
+.about-text-content {
+    padding: 10px;
 }

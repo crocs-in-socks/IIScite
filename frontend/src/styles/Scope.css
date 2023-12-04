@@ -1,0 +1,29 @@
+.scope-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 90vh;
+    background-color: #6CAE75;
+}
+
+.scope-textdeco-container {
+    width: 30%;
+    font-size: 40px;
+    text-align: center;
+}
+
+.scope-text-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.scope-text-content {
+    font-size: 24px;
+}
+
+.scope-text-content > li {
+    font-size: 18px;
+}

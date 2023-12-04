@@ -8,9 +8,6 @@ export default function LandingScreen() {
                 <div className="screen-text-container">
                     Workshop on Medical Image Computing 2023
                 </div>
-                <div className="screen-text-container">
-                    [AXIS BANK CENTRE FOR MATHEMATICS AND COMPUTING]
-                </div>
             </div>
         </>
     )

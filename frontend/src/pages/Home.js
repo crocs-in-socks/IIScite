@@ -1,7 +1,7 @@
 import React from "react";
 import LandingScreen from '../components/LandingScreen';
 import About from '../components/About';
-import Apply from '../components/Apply';
+import Scope from '../components/Scope';
 import SpeakerComponent from '../components/SpeakerComponent';
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
       <div className="home-container">
         <LandingScreen />
         <About />
-        <Apply />
+        <Scope />
         <SpeakerComponent />
       </div>
     );

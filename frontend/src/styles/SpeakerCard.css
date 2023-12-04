@@ -1,0 +1,19 @@
+.speakercard-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    width: 200px;
+    height: 250px;
+}
+
+.speakercard-name {
+    text-align: center;
+}
+
+.speakercard-image > img {
+    width: 200px;
+    height: 200px;
+}
