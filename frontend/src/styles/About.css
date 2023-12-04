@@ -1,0 +1,20 @@
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    width: 100vw;
+    height: 90vh;
+    background-color: #eee;
+}
+
+.about-image-container {
+    width: 30%;
+}
+
+.about-text-container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}

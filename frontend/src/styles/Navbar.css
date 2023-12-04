@@ -1,0 +1,50 @@
+.navbar-container {
+    font-family: 'Poppins';
+    font-weight:700;
+    font-size: 24px;
+}
+
+.navbar-left {
+    display: flex;
+    justify-content: flex-start;
+
+    font-size: 20px;
+}
+
+.navbar-title {
+    justify-content: center;
+    pointer-events: none;
+}
+
+.navbar-list {
+    margin: 0px;
+    padding: 0px;
+
+    background-color: #fff;
+
+    display: flex;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+}
+
+.navbar-list-item {
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+    position: relative;
+    z-index: 2;
+
+    color: #000;
+    cursor: pointer;
+}
+
+.navbar-link {
+    color: inherit;
+    text-align: center;
+    text-decoration: none;
+}
