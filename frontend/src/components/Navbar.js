@@ -13,9 +13,6 @@ export default function Navbar() {
                         <div className="navbar-list-item navbar-left">
                             <a href="/schedule" className="navbar-link">Schedule</a>
                         </div>
-                        <div className="navbar-list-item navbar-left">
-                            <a href="/speakers" className="navbar-link">Speakers</a>
-                        </div>
                     </div> 
                 </div>
                 <div className="navbar-list-item navbar-title">
