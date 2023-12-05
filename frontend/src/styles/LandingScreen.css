@@ -5,11 +5,11 @@
     text-align: center;
 
     width: 100vw;
-    height: 98vh;
+    min-height: 90vh;
     background-color: #aaa;
     color: #fff;
 
-    font-size: 48px;
+    font-size: 2rem;
     font-weight: 600;
 
     background-image: url('../assets/images/Backdrop-1.jpg');
