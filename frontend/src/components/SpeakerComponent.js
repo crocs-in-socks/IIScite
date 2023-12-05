@@ -16,6 +16,9 @@ export default function Speakers() {
                     <Speaker image={SpeakerImage1} name={"Prof. Phaneendra Yalavarthy, IISc Bengaluru"}/>
                     <Speaker image={SpeakerImage10} name={"Mr. Dileep Mangsuli, Head, R&D Development centre, Siemens Healthineers"}/>
                 </div>
+                <div className="speakercomponent-row">
+                    More Speakers to Come.
+                </div>
             </div>
         </>
     )
