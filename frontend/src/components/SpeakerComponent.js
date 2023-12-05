@@ -21,7 +21,7 @@ export default function Speakers() {
                 </div>
                 <div className="speakercomponent-row">
                     <Speaker image={SpeakerImage1} name={"Prof. Phaneendra Yalavarthy, IISc Bengaluru"}/>
-                    <Speaker image={SpeakerImage2} name={"Dr. Lokesh B; Aster CMI"}/>
+                    <Speaker image={SpeakerImage2} name={"Dr. Lokesh B, Aster CMI"}/>
                     <Speaker image={SpeakerImage3} name={"Dr. Mythri Shankar, Aster CMI"}/>
                 </div>
                 <div className="speakercomponent-row">

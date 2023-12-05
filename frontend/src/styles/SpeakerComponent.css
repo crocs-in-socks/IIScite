@@ -5,20 +5,22 @@
     justify-content: center;
 
     width: 100vw;
-    background-color: #ABD2FA;
+    background-color: #18020C;
+    color: aliceblue;
 
     padding: 50px 0px;
 }
 
 .speakercomponent-row {
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
 }
 
 .speakercomponent-title {
     text-align: center;
-    font-size: 48px;
-    padding: 20px;
+    font-size: 64px;
+    font-weight: 600;
+    padding: 40px;
 }
 
 .speakercomponent-row {
