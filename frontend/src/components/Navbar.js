@@ -16,13 +16,10 @@ export default function Navbar() {
                         <div className="navbar-list-item navbar-left">
                             <a href="/speakers" className="navbar-link">Speakers</a>
                         </div>
-                        <div className="navbar-list-item navbar-left">
-                            More +
-                        </div>
                     </div> 
                 </div>
                 <div className="navbar-list-item navbar-title">
-                    WORKSHOP ON MEDICAL IMAGE COMPUTING
+                    WORKSHOP ON AI IN PRECISION MEDICINE
                 </div>
             </div>
         </>

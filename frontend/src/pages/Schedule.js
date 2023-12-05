@@ -11,11 +11,10 @@ export default function Schedule() {
                     Schedule
                 </div>
                 <div className="schedule-text">
-                    The workshop will be held on the 24th and 25th of February 2023
+                    The workshop will be held on the 19th and 20th of January 2024
                 </div>
                 <div className="schedule-image-container">
-                    <img src={Schedule1} alt=""/>
-                    <img src={Schedule2} alt=""/>
+                    To Be Announced.
                 </div>
             </div>
         </>

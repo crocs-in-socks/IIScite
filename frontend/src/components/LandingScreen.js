@@ -6,7 +6,7 @@ export default function LandingScreen() {
         <>
             <div className="screen-container">
                 <div className="screen-text-container">
-                    Workshop on Medical Image Computing 2023
+                    WORKSHOP ON AI IN PRECISION MEDICINE
                 </div>
             </div>
         </>
