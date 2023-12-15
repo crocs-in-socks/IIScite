@@ -21,13 +21,19 @@
 
 .about-text-container {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     width: 30%;
 }
 
+.about-note {
+    width: 100%;
+}
+
 .about-text-title {
-    font-size: 64px;
-    line-height: 64px;
+    font-size: 4rem;
+    line-height: 4rem;
     font-weight: 600;
     padding: 10px;
 }
