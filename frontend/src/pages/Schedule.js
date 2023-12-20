@@ -11,7 +11,7 @@ export default function Schedule() {
                     Schedule
                 </div>
                 <div className="schedule-text">
-                    The workshop will be held on the 19th and 20th of January 2024
+                    The workshop will be held on the 24th and 25th of January 2024
                 </div>
                 <div className="schedule-image-container">
                     To Be Announced.
