@@ -1,0 +1,23 @@
+.candidates-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100vw;
+}
+
+.candidates-title {
+    font-size: 64px;
+    font-weight: 600;
+    padding-top: 150px;
+}
+
+.candidates-text {
+    font-size: 24px;
+    padding: 30px;
+}
+
+.candidates-list {
+    list-style-type: none;
+}
