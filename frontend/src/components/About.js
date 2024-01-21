@@ -1,13 +1,13 @@
 import React from "react"
 import "../styles/About.css"
-import Backdrop from "../assets/images/About.png"
+import Details from "../assets/images/About.png"
 
 export default function About() {
     return(
         <>
             <div className="about-container">
                 <div className="about-image-container">
-                    <img src={Backdrop} alt="" />
+                    <img src={Details} alt="" />
                 </div>
                 <div className="about-text-container">
                     <div className="about-text-title">
