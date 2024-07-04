@@ -1,13 +1,14 @@
 import React from "react"
 import "../styles/About.css"
 import Details from "../assets/images/About.png"
+import AugFlyer from "../assets/images/AugFlyer.jpg"
 
 export default function About() {
     return(
         <>
             <div className="about-container">
                 <div className="about-image-container">
-                    <img src={Details} alt="" />
+                    <img src={AugFlyer} alt="" />
                 </div>
                 <div className="about-text-container">
                     <div className="about-text-title">
