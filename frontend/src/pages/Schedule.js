@@ -11,11 +11,14 @@ export default function Schedule() {
                 <div className="schedule-title">
                     Schedule
                 </div>
-                <div className="schedule-image-container">
+                <div>
+                    1st and 2nd August, 2024
+                </div>
+                {/* <div className="schedule-image-container">
                     <img src={Schedule1} alt="" />
                     <img src={Schedule2} alt="" />
                     <img src={Schedule3} alt="" />
-                </div>
+                </div> */}
             </div>
         </>
     )
