@@ -20,7 +20,10 @@ export default function Speakers() {
                 <div className="speakercomponent-title">
                     Speakers
                 </div>
-                <div className="speakercomponent-row">
+                <div>
+                    Speakers to be announced!
+                </div>
+                {/* <div className="speakercomponent-row">
                     <Speaker image={DM} name={"Mr. Dileep Mangsuli, Head, R&D Development centre, Siemens Healthineers"}/>
                     <Speaker image={PKY} name={"Prof. Phaneendra K. Yalavarthy Department of Computational and Data Sciences (CDS) Indian Institute of Science (IISc)"}/>
                     <Speaker image={SK} name={"Ms. Shwetanjali Kumari CSR Head Siemens Healthineers"}/>
@@ -35,7 +38,7 @@ export default function Speakers() {
                 <div className="speakercomponent-row">
                     <Speaker image={GVSS} name={"Prof. G.V. Shiva Shankar Professor of Mechano-Genomics, ETH Zurich & Head, Laboratory of Nanoscale Biology Paul Scherrer Institute, Switzerland"}/>
                     <Speaker image={CU} name={"Prof. Caroline Uhler Professor of Computer Science at MIT, Boston USA Director of EWSC Center at the Broad Institute"}/>
-                </div>
+                </div> */}
             </div>
         </>
     )
