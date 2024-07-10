@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Papa from "papaparse";
 import "../styles/Candidates.css"
 import selected_candidates from "../assets/sheets/selected_candidates.csv";
+import Navbar from '../components/Navbar';
 
 export default function Candidates() {
   const [parsedData, setParsedData] = useState([]);
@@ -42,6 +43,7 @@ export default function Candidates() {
 
   return (
     <>
+      <Navbar />
         <div className="candidates-container">
             <div className="candidates-title">
                 Candidates
