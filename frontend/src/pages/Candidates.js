@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Papa from "papaparse";
 import "../styles/Candidates.css"
-import selected_candidates from "../assets/sheets/selected_candidates.csv";
+import selected_candidates from "../assets/sheets/aug_selected_candidates.csv";
 import Navbar from '../components/Navbar';
 
 export default function Candidates() {
@@ -52,7 +52,7 @@ export default function Candidates() {
                 <ul className="candidates-list">
                     {
                         parsedData.map((row, index) => (
-                        <li>{`${row['Serial Number']}.    ${row['Name']}`}</li>
+                        <li className="candidates-list-item">{`${row['Serial Number']}. ${row['First Name']} ${row['Last Name']}`}</li>
                         ))
                     }
                 </ul>

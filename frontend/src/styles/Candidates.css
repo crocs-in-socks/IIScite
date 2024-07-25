@@ -21,3 +21,16 @@
 .candidates-list {
     list-style-type: none;
 }
+
+.candidates-list-item {
+    margin: 0px 0px 1px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.candidates-list-item:hover {
+    transform: translateX(10px);
+    background-color: #dcebf8;
+}

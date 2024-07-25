@@ -12,10 +12,10 @@ export default function Navbar() {
                         </div>
                         {/* <div className="navbar-list-item">
                             <a href="/schedule" className="navbar-link">Schedule</a>
-                        </div>
+                        </div> */}
                         <div className="navbar-list-item">
                             <a href="/candidates" className="navbar-link">Candidates</a>
-                        </div> */}
+                        </div>
                     </div>
                 </div>
                 <div className="navbar-title navbar-list-item">
