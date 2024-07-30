@@ -46,7 +46,7 @@ export default function Candidates() {
       <Navbar />
         <div className="candidates-container">
             <div className="candidates-title">
-                Candidates
+                Selected Candidates
             </div>
             <div className="candidates-text">
                 <ul className="candidates-list">
